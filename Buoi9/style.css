@@ -1,0 +1,22 @@
+.container{
+    width: 100%;
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: auto;
+    box-sizing: border-box;
+
+}
+.row-custom{
+    display: flex;
+    margin: 0 -15px;
+  
+}
+.row-custom > div{
+    padding: 0 15px;
+}
+#edit{
+  width: 100%;
+}
+#font-size{
+    width: 80px;    
+}

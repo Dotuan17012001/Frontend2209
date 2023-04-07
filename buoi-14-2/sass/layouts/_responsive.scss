@@ -1,0 +1,84 @@
+// @media all and (min-width: 1120px) {
+//     .header {
+//         &-bottom {
+//             .header-bottom-inner {
+//                 #menu {
+//                     li {
+//                         padding-left: 10px;
+//                         padding-right: 10px;
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }
+
+
+@media all and (max-width: 1480px) {
+    .header {
+        &-bottom {
+            .header-bottom-inner {
+                #menu {
+                    li {
+                        padding-left: 10px;
+                        padding-right: 10px;
+
+                        #text-search {
+                            display: inline-block;
+                            width: 0;
+                            transition: all 0.5s;
+
+                            &.active {
+                                width: 180px;
+                            }
+                        }
+                    }
+                }
+                .page-button .hidden {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+
+@media all and (max-width: 1200px) {
+    .header {
+        &-button {
+            .header-bottom-inner {
+                #menubar {
+                    display: flex;
+                }
+                #menu{
+                    position: fixed;
+                    background-color: antiquewhite;
+                    display: block;
+                    z-index: 1000;
+                    left: 0;
+                    top: 0;
+                    width: 30vw;
+                    height: 100vh;
+                   padding: 40px 0 0 0;
+                   li{
+                    padding: 6px 15px;
+                    #text-search {
+                        visibility: visible;
+                        width: 100%;
+                        flex: 1;
+                        margin-left: 10px;
+                        transition: unset;
+                       }
+                       &:last-child{
+                        display: flex;
+                        align-items: center;
+                       }
+                       lable{
+                        margin: 0;
+                       }
+                   }
+                }
+            }
+        }
+    }
+}

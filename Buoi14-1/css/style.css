@@ -1,0 +1,17 @@
+@charset "UTF-8";
+/* Error: Undefined variable.
+ *    ,
+ * 13 |     font-family: $font-opensans;
+ *    |                  ^^^^^^^^^^^^^^
+ *    '
+ *   sass\base\_reset.scss 13:18  @import
+ *   sass\style.scss 1:9          root stylesheet */
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono", "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\a    ╷\a 13 │     font-family: $font-opensans;\d\a    │                  ^^^^^^^^^^^^^^\a    ╵\a   sass\\base\\_reset.scss 13:18  @import\a   sass\\style.scss 1:9          root stylesheet";
+}/*# sourceMappingURL=style.css.map */

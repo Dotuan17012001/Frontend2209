@@ -1,0 +1,14 @@
+1. Hien thi noi dung js
+- console.log: hien thi noi dung tren console
+- document.write: hien thi noi dung trn trang html
+2. Kieu du lieu
+- number: so
+- array: mang
+- string: chuoi
+- object: doi tuong
+- boolean: logic
+- undenfined: khong xac dinh
+- null: gia tri khong ton tai
+3. Bien va hang
+- Bien khai bao bang let
+- Hang khai bao bang const

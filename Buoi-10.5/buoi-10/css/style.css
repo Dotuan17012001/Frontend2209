@@ -1,0 +1,21 @@
+body {
+  color: blue;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.ong {
+  color: #ff0000;
+}
+.ong:hover .cha {
+  font-weight: bold;
+}
+.ong .cha {
+  color: green;
+}
+.ong .cha .con {
+  color: gray;
+  font-size: 30px;
+}
+
+/*# sourceMappingURL=style.css.map */

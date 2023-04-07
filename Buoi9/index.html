@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,100&family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Pacifico&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="main.js">
+    <title>Buoi-9</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row-custom">
+            <div class="font-family">
+                <label for="font-family">Font-family:</label>
+                <select name="" id="font-family">
+                    <option value="none">None</option>
+                    <option value="montserrat">Montserrat</option>
+                    <option value="arial">Arial</option>
+                    <option value="timesNewRoman">Time new roman</option>
+                    <option value="openSans">Opensan</option>
+                    <option value="pacifico">Pacifico</option>
+                </select>
+            </div>
+
+            <div class="font-size">
+                <label for="font-size">Font-size:</label>
+                <input type="number" id="font-size" value="24">
+            </div>
+
+            <div class="font-style">
+                <label for="font-style">Font-style:</label>
+                <select name="" id="font-style">
+                    <option value="none">None</option>
+                    <option value="bold">Bold</option>
+                    <option value="italic">Italic</option>
+                    <option value="underline">Underline</option>
+                </select>
+            </div>
+
+            <div class="font-color">
+                <label for="font-color">Font-color:</label>
+                <input type="color" id="font-color">
+            </div>
+
+            <div class="save">
+                <button id="save">Set</button>
+            </div>
+        </div>
+        <div class="text-container">
+            <textarea name="" id="editor" cols="30" rows="10" placeholder="Insert here"></textarea>
+        </div>
+
+        <p id="output">Preview text display here</p>
+    </div>
+
+    
+
+    <script src="jquery-3.6.1.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>btvn8</title>
+</head>
+<body>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Pacifico&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@700&family=Pacifico&display=swap');
+        
+        .container {
+            width: 100%;
+            max-width: 1170px;
+            padding: 0 15px;
+            margin: auto;
+            box-sizing: border-box;
+        }
+        .custom-row {
+            display: flex;
+            justify-content: space-between;
+        }
+        .container textarea {
+            width: 100%;height: 100%;
+            
+        }
+        .custom-row > div {
+
+        }
+        #editor {
+            width: 100%;
+        }
+        #font-size {
+            width: 80px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        img {
+            display: none;
+        }
+    </style>
+    <div class="container">
+        <div class="custom-row">
+            <div class="font-family">
+                <label for="font-family">Font-Family</label>
+                <select name="" id="font-family">
+                    <option value="Montserrat"> Montserrat</option>
+                    <option value="OpenSans">OpenSans</option>
+                    <option value="Arial">Arial</option>
+                    <option value="TimesNewRoman">Times New Roman</option>
+                    <option value="Pacifico">Pacifico</option>
+                </select>
+            </div>
+            <div class="font-size">
+                <label for="font-size">Font-Size</label>
+                <input type="number" name="" id="font-size">
+            </div>
+            <div clcllass="font-">
+                <label for="font-style">Font-Style</label>
+                <select name="" id="font-style">
+                    <option value="bold">Bold</option>
+                    <option value="italic">Italic</option>
+                    <option value="underline">Underline</option>
+                    <option value="none">None</option>
+                </select>
+            </div>
+            <div class="font-">
+                <label for="font-color">Font-Color :</label>
+                <input type="color" name="" id= "font-color">
+            </div>
+            <div class="save">
+                <button id="save">Set</button>
+            </div> 
+        </div>
+    </div>
+    <div class="container">
+        <textarea name="" id="editor" cols="30" rows="10" placeholder="Input text here"></textarea>
+    </div>
+    <div class="container">
+        <p id="output">Preview text will be displayed here</p>
+    </div>
+    <button type="submit" disabled>Submit</button>
+    <img src="https://vcdn1-vnexpress.vnecdn.net/2020/07/19/Mercedes-G63-Trail-Package-VnExpress2-1595141855.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=cZ4AcI9KoVYDKELuMESVhw" alt="">
+</body>
+</html>
+<script src="js/jquery-3.6.1.min.js"></script>
+<script src="js/script.js"></script>

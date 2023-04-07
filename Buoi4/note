@@ -1,0 +1,18 @@
+1 .Magin
+- Cach trinh bay css tuong tu padding
+- Dung de tao phan le cho khoi
+- Quy tac trong Magin
+2. Display
+- block: chuyen html thanh block
+- inline:chuyen html thanh inline
+- inline-block
++ width auto theo noi dung
++ su dung duoc width va height
+flex: giup gian cac the con cua the dang set theo 1 hang
+grid: giup gian cac the con cua the dang set theo ma tran
+table: bien the dang set thanh dang bang
+3. Flex-container
+- flex-direction: dinh dang huong gian cua flexbox
+- flex-wrap: dinh dang viec giu hay day cac flex-item ra khoi container khi qua width
+align-item
+justify-content:space-..., center

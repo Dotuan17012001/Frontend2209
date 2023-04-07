@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    margin: 0;
+    li{
+        padding: 0;
+        list-style: none;
+    }
+}
+:root{
+    font-family: $font-opensans;
+    font-size: 14px;
+    font-weight:400;
+    color: $text-color;
+}

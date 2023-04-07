@@ -1,0 +1,54 @@
+.card.item {
+    border: none;
+    margin-bottom: 50px;
+    box-shadow: 2px 4px 5px -1px rgba(204,204,204,0.75);
+    -webkit-box-shadow: 2px 4px 5px -1px rgba(204,204,204,0.75);
+    -moz-box-shadow: 2px 4px 5px -1px rgba(204,204,204,0.75);
+    &:hover {
+        box-shadow: 2px 4px 5px 1px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 2px 4px 5px 1px rgba(0,0,0,0.75);
+        -moz-box-shadow: 2px 4px 5px 1px rgba(0,0,0,0.75);
+    }
+    .card-header {
+        .addtocart {
+            font-size: 12px;
+            font-family: $font-montserrat;
+            color: $text-color;
+            text-transform: uppercase;
+            padding: 13px 17px;
+            position: absolute;
+            left: 5px;
+            bottom: 5px;
+            background-color: #fff;
+        }
+    }
+    .card-body {
+        .product-title {
+            line-height: 26px;
+            font-size: 14px;
+            font-family: $font-montserrat;
+            color: #000;
+            font-weight: 700;
+        }
+        .product-star {
+            font-size: 12px;
+            line-height: 26px;
+            [data-prefix='fas'] {
+                color: #f8ba04;
+            }
+            [data-prefix='far'] {
+                color: #d1d1d1;
+            }
+        }
+        .price {
+            font-size: 16px;
+            font-family: $font-opensans;
+            color: #d1d1d1;
+            line-height: 26px;
+            .selling-price {
+                font-weight: bold;
+                color: $main-color;
+            }
+        }
+    }
+}

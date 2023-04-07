@@ -1,0 +1,34 @@
+1. Co 3 cach viet css trong html
+- Cach 1: Viet trong thuoc tinh style cua html (code inline)
+- Cach 2: viet trong the <style>
+2. Id va class
+-Moi id chi xuat hien 1 lan
+-Moi class xuat hien nhieu lan
+3. Do uu tien
+- Trong cung 1 do uu tien thi css phia duoi se de phia tren, css o cuoi cung se co do uu tien cao nhat
+- Khi su dung bo chon thi cang goi truc tiep thi do uu tien css cang thap
+- Cac bo chon trong css la ngang hang nhau
+4. CSS co ban
+- font-family:chon font chu 
+- font-size: chon co chu
+- font-weight: chon chu dam nhat
+- font-style: (italic): chu thang hoac nghieng
+- text-decoration: gach chan
+- color: mau chu
+- line height: do cao khoi
+- background color: mau nen
+5. Box model
+- La cach mo ta cac thanh phan ve khong gian cua 1 the html
+a. Do rong cua the
+- La khong gian thuc ma the html do co
+- Do rong thuc la noi bat dau cua noi dung trong the
+b. Padding
+- Padding la thanh phan cua the html
+- Noi dung the se khong nam ra pham vi cua padding nhung mau nen thi co
+c. Boder
+- cung la 1 thanh phan cua the html
+6. Don vi
+- px: don vi tuyet doi
+- %: don vi tuong doi
+- rem
+- em: 1em = font-size cua the dang set

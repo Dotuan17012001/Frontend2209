@@ -1,0 +1,22 @@
+.header{
+    &-top{
+        background-color: #222;
+        height: 46px;
+        line-height: 46px;
+        display: flex;
+        align-items: center;
+    .header-top-inned{
+        display: flex;
+        justify-content: space-between;
+        .header-top-left{
+            margin-left: 15px;
+        }
+        .header-top-right{
+            span:first-child{
+                
+            }
+        }
+        
+    }
+    }
+}

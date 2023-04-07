@@ -1,0 +1,11 @@
+1. Cach can giua noi dung trong khoi
+  - Cach 1: width + height + line-height + tac
+  - Cach 2: width + height + flex + align-items +justify-content +tac(block)
+  - Cach 3: them padding 
+
+ 2. Position:
+ - absolute: dua the den 1 vi tri bat ki tren trang   
+ - relative: Vi tri tuong doi, ko phu thuoc vao doi tương nao ben ngoai ca
+ - fixed: set vi tri co dinh theo man hinh
+ 3. prefix css
+ 

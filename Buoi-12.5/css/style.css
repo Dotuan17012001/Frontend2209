@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;700&family=Pacifico&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin: 0;
+}
+ul li {
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: #424242;
+  text-decoration: none;
+}
+
+:root {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #424242;
+}
+
+.container {
+  width: 100%;
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+.container-fluid {
+  width: 100%;
+  padding: 0 30px;
+  box-sizing: border-box;
+}
+
+hr {
+  background-color: #ddd;
+  margin: 0;
+  border-bottom: none;
+}
+
+.header-top {
+  background-color: #222;
+  height: 46px;
+  display: flex;
+  align-items: center;
+}
+.header-top .header-top-inner {
+  display: flex;
+  justify-content: space-between;
+}
+.header-top .header-top-inner .header-top-left span {
+  margin-left: 5px;
+}
+.header-top .header-top-inner .header-top-right span:first-child {
+  margin-right: 30px;
+}
+.header-bottom {
+  height: 79px;
+  display: flex;
+  align-items: center;
+}
+.header-bottom .header-bottom-inner {
+  display: flex;
+  justify-content: space-between;
+}
+.header-bottom .header-bottom-inner #menu {
+  align-items: center;
+  display: flex;
+}
+.header-bottom .header-bottom-inner #menu li {
+  padding-left: 28px;
+  padding-right: 28px;
+}
+.header-bottom .header-bottom-inner #menu li label {
+  cursor: pointer;
+}
+.header-bottom .header-bottom-inner #menu li a {
+  color: #000;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+}
+.header-bottom .header-bottom-inner #menu li a:hover {
+  color: #8262b5;
+}
+.header-bottom .header-bottom-inner #menu li #text-search {
+  visibility: hidden;
+}
+.header-bottom .header-bottom-inner #menu li #text-search.active {
+  visibility: visible;
+}
+.header-bottom .header-bottom-inner .page-button a {
+  font-size: 30px;
+}
+.header-bottom .header-bottom-inner .page-button #favorite {
+  margin-right: 30px;
+}
+
+/*# sourceMappingURL=style.css.map */
